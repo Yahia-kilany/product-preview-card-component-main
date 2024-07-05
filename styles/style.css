@@ -21,7 +21,6 @@ body {
 
 .container {
   display: flex;
-  align-items: center;
   justify-content: center;
   flex-direction: column;
   width: 22rem;
@@ -59,8 +58,8 @@ body {
 }
 
 .prices {
-  margin: 10px;
-  margin-top: 20px;
+  margin: 20px 10px;
+  
   display: flex;
 }
 .price {
@@ -105,9 +104,8 @@ body {
   .container {
     flex-direction: row;
     width: 40rem;
-    max-width: max-content;
-    max-height: min-content;
-    border-radius: 10px 0px 0px 10px;
+    border-radius:10px;
+    height: min-content;
   }
   .product-mobile {
     display: none;
@@ -124,7 +122,7 @@ body {
     height: 100%;
   }
   .info{
-    padding: 0.5em;
+    padding: 2em;
   }
   .text {
     margin: 0em 0em 3em 2em;
@@ -135,16 +133,12 @@ body {
   }
   .prices{
     text-align: center;
-    margin: -1em 2em 1.5em 2em;
-    padding: 0em;
+    margin: -0.5em 2em 1.5em 2em;
   }
   .order-btn{
-    margin: 20px;
+    margin: 2em 0.5em 1em 0.5em;
   }
   .discounted {
-    display: block;
-    text-decoration: line-through;
-    font-weight: 600;
     margin-bottom: -0.2em;
     align-self: center;
   }
